@@ -191,7 +191,7 @@ module.exports = class UpgradeCommand extends Commando.Command {
         .setDescription(`**Room ${room.number}** has been upgraded to \`${(room.type == 'presidential') ? '👑' : '🎩'} ${room.type.charAt(0).toUpperCase() + room.type.slice(1)}\`!`)
         let firstRoomChannel = this.client.channels.cache.get(room.category).children.find(channel => channel.position == 0);
         if (firstRoomChannel && firstRoomChannel.type === 'text' || firstRoomChannel.type === 'news') {
-            firstRoomChannel.send(roomUpgradedEmbed);
+            firstRoomChannel.send(roomUpgradedEmbed).then((msg) => {msg.pin();});
             firstRoomChannel.send(`Your room has been upgraded to \`${(room.type == 'presidential') ? '👑' : '🎩'} ${room.type.charAt(0).toUpperCase() + room.type.slice(1)}\`! <@${room.members.host}>`).then(msg => { msg.delete() });
         }
     }

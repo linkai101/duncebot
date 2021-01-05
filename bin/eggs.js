@@ -36,7 +36,7 @@ module.exports = {
                 const invitedEmbed = new Discord.MessageEmbed()
                 .setAuthor(`🧙‍♂️ ℝ𝕆𝕆𝕄 𝟡 𝟛/𝟜`, ``, ``)
                 .setTitle(`Yer a wizard, ${message.author.username}!`)
-                .setDescription(`𝕐𝕠𝕦 𝕙𝕒𝕧𝕖 𝕓𝕖𝕖𝕟 𝕚𝕟𝕧𝕚𝕥𝕖𝕕 𝕥𝕠 **ℝ𝕆𝕆𝕄 𝟡 𝟛/𝟜**!`)
+                .setDescription(`𝕐𝕠𝕦 𝕙𝕒𝕧𝕖 𝕓𝕖𝕖𝕟 𝕚𝕟𝕧𝕚𝕥𝕖𝕕 𝕥𝕠 **ℝ𝕆𝕆𝕄 𝟡 𝟛/𝟜**!\nYou can access this room in the **dunce hotel**.`)
                 message.author.send(invitedEmbed);
             }
         }
