@@ -1,0 +1,12 @@
+{
+    "starting": 50,
+    "daily": {
+        "normal": 50,
+        "streak": 100
+    },
+    "roomPrices": {
+        "quad": 50,
+        "suite": 1000,
+        "presidential": 5000
+    }
+}

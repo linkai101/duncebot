@@ -1,0 +1,17 @@
+{
+  "name": "duncebot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "linkai101",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "git+https://github.com/linkai101/duncebot-Commando.git",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3"
+  }
+}
