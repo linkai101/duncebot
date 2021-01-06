@@ -46,6 +46,7 @@ module.exports = class HelpCommand extends Commando.Command {
             [{ name: `Admin`, value: 
                 `\`${prefix}${commands.get('presence').name}\` ${commands.get('presence').description}`+
                 `\n\`${prefix}${commands.get('clear').name}\` ${commands.get('clear').description}`+
+                `\n\`${prefix}${commands.get('eco').name}\` ${commands.get('eco').description}`+
                 `\n\`${prefix}${commands.get('forceclose').name}\` ${commands.get('forceclose').description}`
             , inline: true }]
         : []);
