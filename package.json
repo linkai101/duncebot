@@ -12,6 +12,7 @@
     "discord.js": "^12.5.1",
     "discord.js-commando": "git+https://github.com/linkai101/duncebot-Commando.git",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "mongodb": "^3.6.3"
   }
 }

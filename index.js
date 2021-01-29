@@ -1,6 +1,10 @@
 require('dotenv').config();
 const path = require('path');
 
+// For repl.it hosting
+const server = require('./server');
+server();
+
 // Importing config + lib functions
 const config = require("./config/config.json");
 const slashcommands = require('./bin/slashcommands');
